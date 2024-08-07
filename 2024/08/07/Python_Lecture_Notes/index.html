@@ -6,15 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://zgszlsy.github.io/blog">
-  <title>Archives: 2023/12 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Lecture_21. How to use input ( )123print(&quot;Do you like python?&quot;)response &#x3D; input()print(response)  Do you like python? yes yes  12user_answer &#x3D; input(&quot;Do you like python?&quot;)print(use">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://zgszlsy.github.io/blog/archives/2023/12/index.html">
+<meta property="og:url" content="https://zgszlsy.github.io/blog/2024/08/07/Python_Lecture_Notes/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Lecture_21. How to use input ( )123print(&quot;Do you like python?&quot;)response &#x3D; input()print(response)  Do you like python? yes yes  12user_answer &#x3D; input(&quot;Do you like python?&quot;)print(use">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://zgszlsy.github.io/blog/e1671fd1-840e-4193-8f9e-01acfd930130.png">
+<meta property="og:image" content="https://zgszlsy.github.io/blog/8ca03f2f-a478-41bd-bf39-4b1b1b7e73ec.png">
+<meta property="article:published_time" content="2024-08-07T11:09:06.000Z">
+<meta property="article:modified_time" content="2024-08-07T11:09:06.000Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zgszlsy.github.io/blog/e1671fd1-840e-4193-8f9e-01acfd930130.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -55,7 +62,7 @@
 			
 				<li><a href="/blog/">主页</a></li>
 	        
-				<li><a href="/blog/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+				<li><a href="/blog/tags/%E7%AC%94%E8%AE%B0/">笔记</a></li>
 	        
 			</ul>
 		</nav>
@@ -77,14 +84,6 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
 			</div>
 		</nav>
 	</header>		
@@ -118,14 +117,6 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-			        
 				</div>
 			</nav>
 
@@ -135,7 +126,7 @@
 				
 					<li style="width: 50%"><a href="/blog/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/blog/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 50%"><a href="/blog/tags/%E7%AC%94%E8%AE%B0/">笔记</a></li>
 		        
 				</ul>
 			</nav>
@@ -150,91 +141,445 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Python_Lecture_Notes" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Lecture-2"><a href="#Lecture-2" class="headerlink" title="Lecture_2"></a>Lecture_2</h2><h3 id="1-How-to-use-input"><a href="#1-How-to-use-input" class="headerlink" title="1. How to use input ( )"></a>1. How to use input ( )</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Do you like python?&quot;</span>)</span><br><span class="line">response = <span class="built_in">input</span>()</span><br><span class="line"><span class="built_in">print</span>(response)</span><br></pre></td></tr></table></figure>
+
+<pre><code>Do you like python?
+yes
+yes
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">user_answer = <span class="built_in">input</span>(<span class="string">&quot;Do you like python?&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(user_answer)</span><br></pre></td></tr></table></figure>
+
+<pre><code>Do you like python?yes
+yes
+</code></pre>
+<p><strong>Note: The default data type of input() function is str</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">num = <span class="built_in">input</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(num))</span><br></pre></td></tr></table></figure>
+
+<pre><code>1
+&lt;class &#39;str&#39;&gt;
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">num = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">msg = <span class="string">&#x27;I am student&#x27;</span></span><br><span class="line"><span class="keyword">if</span> num == <span class="number">1</span>:</span><br><span class="line">    msg = <span class="string">&#x27;correct&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(msg)</span><br></pre></td></tr></table></figure>
+
+<pre><code>1
+correct
+</code></pre>
+<h2 id="Lecture-3"><a href="#Lecture-3" class="headerlink" title="Lecture_3"></a>Lecture_3</h2><p><strong>Variables and Expressions</strong></p>
+<h3 id="1-Boolean-example"><a href="#1-Boolean-example" class="headerlink" title="1. Boolean example"></a>1. Boolean example</h3><p><strong>Note:</strong> </p>
+<p><strong>use ‘and’ to calculate the boolean values</strong></p>
+<p><strong>can only concatenate str (not “bool”) to str</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="literal">True</span></span><br><span class="line">b = <span class="literal">False</span></span><br><span class="line">flag = a <span class="keyword">and</span> b</span><br><span class="line">c = (a == b)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;flag = &#x27;</span> + <span class="built_in">str</span>(flag))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;c =&#x27;</span>, c)</span><br></pre></td></tr></table></figure>
+
+<pre><code>flag = False
+c = False
+</code></pre>
+<h3 id="2-Int-Float"><a href="#2-Int-Float" class="headerlink" title="2. Int &amp; Float"></a>2. Int &amp; Float</h3><p><strong>Note: only can concatenate str (not “int” or “float”) to str</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">2</span></span><br><span class="line">c = a + b</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;a=&#x27;</span>+ <span class="built_in">str</span>(a)) <span class="comment">#print(&#x27;a =&#x27;, a)</span></span><br><span class="line"><span class="built_in">print</span>( <span class="built_in">str</span>(a+b) + <span class="string">&#x27;=&#x27;</span> + <span class="built_in">str</span>(c))</span><br></pre></td></tr></table></figure>
+
+<pre><code>a=1
+3=3
+</code></pre>
+<p><strong>Note: Floating point numbers are represented in computers in binary, and certain decimal decimals cannot be converted to binary floating point numbers accurately.</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">f1 = <span class="number">0.00015</span> + <span class="number">0.00015</span></span><br><span class="line">f2 = <span class="number">0.0002</span> + <span class="number">0.0001</span></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;f1 = &quot;</span> + <span class="built_in">str</span> (f1) )</span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;f2 = &quot;</span> + <span class="built_in">str</span> (f2) )</span><br></pre></td></tr></table></figure>
+
+<pre><code>f1 = 0.0003
+f2 = 0.00030000000000000003
+</code></pre>
+<h3 id="3-String"><a href="#3-String" class="headerlink" title="3. String"></a>3. String</h3><p><strong>Note: The value of the String variable is a memory address. So, don’t use ‘is’ to compare string content. Use ‘&#x3D;&#x3D;’ to compare the string</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">&#x27;hello&#x27;</span></span><br><span class="line">b = <span class="string">&#x27;hello&#x27;</span></span><br><span class="line">c = a <span class="keyword">is</span> b</span><br><span class="line"><span class="built_in">print</span>(c) <span class="comment"># By &quot;string interning&quot; optimization in python, the answer turn out to be true. </span></span><br></pre></td></tr></table></figure>
+
+<pre><code>True
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">&#x27;hello world!&#x27;</span> * <span class="number">1000</span></span><br><span class="line">b = <span class="string">&#x27;hello world!&#x27;</span> * <span class="number">1000</span></span><br><span class="line">d = a <span class="keyword">is</span> b</span><br><span class="line"><span class="built_in">print</span>(d)  </span><br></pre></td></tr></table></figure>
+
+<pre><code>False
+</code></pre>
+<p><strong>Note:</strong><br><strong>A string is an object, it can have a few characters or several thousand.</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># + operator</span></span><br><span class="line">word1 = <span class="string">&quot; Hello &quot;</span> <span class="comment"># blank space are entered manually</span></span><br><span class="line">word2 = <span class="string">&quot; World !&quot;</span></span><br><span class="line">twoWords = word1 + word2</span><br><span class="line"><span class="built_in">print</span> ( twoWords ) </span><br></pre></td></tr></table></figure>
+
+<pre><code> Hello  World !
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># len() method</span></span><br><span class="line">a = <span class="string">&#x27;Jenny&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">len</span>(a))</span><br></pre></td></tr></table></figure>
+
+<pre><code>5
+</code></pre>
+<h2 id="Lecture-4"><a href="#Lecture-4" class="headerlink" title="Lecture_4:"></a>Lecture_4:</h2><p><strong>Expressions, Command-linearguments, Conventions, and Pseudocode</strong></p>
+<h3 id="1-Command-linerguments"><a href="#1-Command-linerguments" class="headerlink" title="1. Command-linerguments"></a>1. Command-linerguments</h3><p><strong>Note:</strong></p>
+<ul>
+<li><p><strong>sys.argv is a list in Python that contains command-line arguments passed to the script.</strong></p>
+</li>
+<li><p><strong>the command-line arguments are string, it needs to be converted by int( ) or float( ) in some conditions</strong></p>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot; __main__ &quot;</span>:</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&quot; Hello World !&quot;</span>)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span> ( sys . argv [<span class="number">0</span>]) <span class="comment"># print program name</span></span><br><span class="line"><span class="built_in">print</span> ( sys . argv [<span class="number">1</span>]) <span class="comment"># print 1st argument</span></span><br><span class="line"><span class="built_in">print</span> ( sys . argv [<span class="number">2</span>]) <span class="comment"># print 2nd argument</span></span><br></pre></td></tr></table></figure>
+
+<pre><code>/Users/kunkun/anaconda3/lib/python3.11/site-packages/ipykernel_launcher.py
+-f
+/Users/kunkun/Library/Jupyter/runtime/kernel-76e34357-7d21-40dc-8fb6-6e90ed65b53e.json
+</code></pre>
+<h3 id="2-Expressions"><a href="#2-Expressions" class="headerlink" title="2. Expressions"></a>2. Expressions</h3><p><strong>Note: No ‘++’ Embedding shorthand operators in python</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">4</span></span><br><span class="line">y = (x + <span class="number">7</span>) + ( --x ) <span class="comment"># no x++/++x in python</span></span><br><span class="line"><span class="built_in">print</span>(y)</span><br></pre></td></tr></table></figure>
+
+<pre><code>15
+</code></pre>
+<h3 id="3-Power-method"><a href="#3-Power-method" class="headerlink" title="3. Power method"></a>3. Power method</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line">r = <span class="number">2</span></span><br><span class="line">s = <span class="built_in">pow</span>(r, <span class="number">2</span>) * math.pi</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;s=&#x27;</span> + <span class="built_in">str</span>(s)) </span><br></pre></td></tr></table></figure>
+
+<pre><code>s=12.566370614359172
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">3</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line">a.sort(reverse=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(a)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>.join(<span class="built_in">map</span>(<span class="built_in">str</span>,a)))</span><br></pre></td></tr></table></figure>
+
+<pre><code>[8, 7, 6, 5, 4, 4, 3, 3, 2, 1]
+8765443321
+</code></pre>
+<h3 id="4-Absolute-value-method"><a href="#4-Absolute-value-method" class="headerlink" title="4. Absolute value method"></a>4. Absolute value method</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">5</span></span><br><span class="line">y = -<span class="number">4</span></span><br><span class="line">result = <span class="built_in">abs</span> ( x - y ) + y + <span class="built_in">abs</span> (x)</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure>
+
+<pre><code>10
+</code></pre>
+<h2 id="Lecture-5"><a href="#Lecture-5" class="headerlink" title="Lecture_5"></a>Lecture_5</h2><p><strong>Note:</strong></p>
+<ul>
+<li><p><strong>If…elif…elif…</strong></p>
+</li>
+<li><p><strong>‘Pass’ can help make an empty statement.</strong></p>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> x &gt; <span class="number">0</span>:</span><br><span class="line">    <span class="keyword">pass</span> <span class="comment"># procee it latter</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Lecture-6"><a href="#Lecture-6" class="headerlink" title="Lecture_6"></a>Lecture_6</h2><p><strong>While loops</strong></p>
+<p><strong>Note:</strong></p>
+<ul>
+<li><strong>‘break’ is a special reserved word. if the break statement is executed then exit the<br>loop ‘break’ is not allowed in an if statement that is not part of a loop. However, it is allowed within an if statement when it is inside a while or for loop!!!</strong></li>
+<li><strong>if the continue statement is executed then operation of the loop goes back to the beginning of the loop</strong></li>
+</ul>
+<p><img src="/blog/e1671fd1-840e-4193-8f9e-01acfd930130.png" alt="image.png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Valid Usage</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="keyword">if</span> some_condition:</span><br><span class="line">        <span class="keyword">break</span> <span class="comment"># exist the loop if the condition is met</span></span><br><span class="line">        </span><br><span class="line"><span class="comment"># Wrong example</span></span><br><span class="line"><span class="keyword">if</span> some_condition:</span><br><span class="line">    <span class="keyword">break</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>Example:</strong></p>
+<p><img src="/blog/8ca03f2f-a478-41bd-bf39-4b1b1b7e73ec.png" alt="image.png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Example coding</span></span><br><span class="line">distance = <span class="number">0.0</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    distance += <span class="number">10</span></span><br><span class="line">    <span class="keyword">if</span> distance &gt; <span class="number">72.5</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Final distance:&quot;</span>, distance)</span><br></pre></td></tr></table></figure>
+
+<pre><code>Final distance: 80.0
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">friends = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> friends &lt; <span class="number">5</span>:</span><br><span class="line">    friends += <span class="number">1</span></span><br><span class="line">    digits = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> digits &lt; <span class="number">4</span>:</span><br><span class="line">        digits += <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;friends = &quot;</span>, friends)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;digits = &quot;</span>, digits)</span><br></pre></td></tr></table></figure>
+
+<pre><code>friends =  5
+digits =  4
+</code></pre>
+<p><strong>Note: Read from a File</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method_1</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span> (<span class="string">&#x27;/Users/kunkun/Desktop/Test.txt&#x27;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> myfile :</span><br><span class="line">    <span class="built_in">print</span> ( myfile . readline () )</span><br><span class="line">    <span class="built_in">print</span> ( myfile . readline () )</span><br><span class="line">    <span class="built_in">print</span> ( myfile . readline () )</span><br></pre></td></tr></table></figure>
+
+<pre><code>q
+
+w
+
+e
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Method_2</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span> (<span class="string">&#x27;/Users/kunkun/Desktop/Test.txt&#x27;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> myfile:</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        line = myfile.readline()</span><br><span class="line">        <span class="keyword">if</span> line == <span class="string">&#x27;&#x27;</span>:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        <span class="built_in">print</span>(line, end=<span class="string">&#x27;&#x27;</span>) <span class="comment"># prints the line without appending an additional newline character.</span></span><br></pre></td></tr></table></figure>
+
+<pre><code>q
+w
+e
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;/Users/kunkun/Desktop/Test.txt&quot;</span>, <span class="string">&#x27;r&#x27;</span>) <span class="keyword">as</span> myfile:</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        out = myfile.readline()</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> out:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        <span class="built_in">print</span>(out)</span><br></pre></td></tr></table></figure>
+
+<pre><code>q
+
+w
+
+e
+</code></pre>
+<p><strong>Exercise: Write a program to describe a fisherman’s catch. Each time a fish is caught it is first weighed, then thrown in a bucket. Your program will keep track of how many fish are caught and the total weight of the bucket. If the bucket exceeds a certain heavy weight the fisherman will stop fishing. The program will display the number of fish caught and the total weight.</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">weight_calculation</span>(<span class="params">max_weight</span>):</span><br><span class="line">    total_weight = <span class="number">0</span></span><br><span class="line">    fish_num = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        fish_weight = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;This fish weight is:&#x27;</span>))</span><br><span class="line">        total_weight += fish_weight</span><br><span class="line">        fish_num += <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> total_weight &gt; max_weight:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;The fish numbers are:&#x27;</span>, fish_num)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;The total fish weights are:&#x27;</span>, total_weight)</span><br><span class="line"></span><br><span class="line">max_weight = <span class="number">20</span></span><br><span class="line">weight_calculation(max_weight)</span><br></pre></td></tr></table></figure>
+
+<pre><code>This fish weight is: 10
+This fish weight is: 5
+This fish weight is: 4
+This fish weight is: 3
+
+
+The fish numbers are: 4
+The total fish weights are: 22
+</code></pre>
+<h2 id="Lecture-7"><a href="#Lecture-7" class="headerlink" title="Lecture_7"></a>Lecture_7</h2><p><strong>Arrays, Lists and Iteration</strong></p>
+<p><strong>An array is a contiguous block of memory containing multiple values of the same type.</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = [-<span class="number">3</span>, -<span class="number">2</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">len</span>(x))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">str</span>(x))</span><br><span class="line"><span class="built_in">print</span>((x[<span class="number">4</span>] * x[<span class="number">5</span>]))</span><br></pre></td></tr></table></figure>
+
+<pre><code>7
+[-3, -2, 0, 1, 2, 3, 4]
+6
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">p17 <span class="number">18</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>List：</strong></p>
+<ul>
+<li><strong>The size of the list is not fixed, it is mutable</strong></li>
+<li><strong>Any type of object can be be included</strong></li>
+<li><strong>Elements can be inserted or removed in any position</strong></li>
+<li><strong>Lists can be concatenated together</strong></li>
+<li><strong>A subset of the list can be created from the list</strong></li>
+<li><strong>Very different memory structure</strong></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># List can contain object with different categories</span></span><br><span class="line">z = [ <span class="number">33</span>, <span class="string">&quot; the number is 33&quot;</span> ]</span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot; array z is &quot;</span> + <span class="built_in">str</span>(z) )</span><br><span class="line"></span><br><span class="line"><span class="comment"># A list with five 0 </span></span><br><span class="line">w = [<span class="number">0</span>] * <span class="number">5</span></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot; array w is &quot;</span> + <span class="built_in">str</span>(w) )</span><br></pre></td></tr></table></figure>
+
+<pre><code> array z is [33, &#39; the number is 33&#39;]
+ array w is [0, 0, 0, 0, 0]
+</code></pre>
+<p><strong>List operation: Search with loops</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Question: Is there a bear in the list?</span></span><br><span class="line">animals = [ <span class="string">&quot; armadillo &quot;</span>, <span class="string">&quot; bear &quot;</span>, <span class="string">&quot; kangaroo &quot;</span>, <span class="string">&quot; okapi &quot;</span>, <span class="string">&quot; squirrel &quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># Method_1: use keyword &#x27;in&#x27; </span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27; bear &#x27;</span> <span class="keyword">in</span> animals)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Method_2:</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(animals)):</span><br><span class="line">    <span class="keyword">if</span> animals[i] == <span class="string">&#x27; bear &#x27;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Yes, it exists in the list!&quot;</span>)</span><br><span class="line">        </span><br><span class="line"><span class="comment"># Method_3:</span></span><br><span class="line">has_bear = <span class="literal">False</span></span><br><span class="line">i = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="keyword">if</span> i &gt; <span class="built_in">len</span>(animals) - <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">if</span> animals[i] == <span class="string">&#x27; bear &#x27;</span>:</span><br><span class="line">        has_bear = <span class="literal">True</span></span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    i += <span class="number">1</span></span><br><span class="line"><span class="keyword">if</span> has_bear:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;exist&#x27;</span>)</span><br><span class="line">    </span><br><span class="line"><span class="comment"># Method_4: Grammar_sugar:</span></span><br><span class="line">out = <span class="string">&#x27;exist&#x27;</span> <span class="keyword">if</span> <span class="string">&#x27; bear &#x27;</span> <span class="keyword">in</span> animals <span class="keyword">else</span> <span class="string">&#x27;not exist&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(out)</span><br></pre></td></tr></table></figure>
+
+<pre><code>True
+Yes, it exists in the list!
+exist
+exist
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Question: Where is the kangaroo? What is the index?</span></span><br><span class="line">animals = [ <span class="string">&quot; armadillo &quot;</span>, <span class="string">&quot; bear &quot;</span>, <span class="string">&quot; kangaroo &quot;</span>, <span class="string">&quot; okapi &quot;</span>, <span class="string">&quot; squirrel &quot;</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(animals)):</span><br><span class="line">    <span class="keyword">if</span> animals[i] == <span class="string">&#x27; kangaroo &#x27;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;The index of the kangaroo is:&quot;</span>, i)</span><br></pre></td></tr></table></figure>
+
+<pre><code>The index of the kangaroo is: 2
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Question: How many squirrels?</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">squirrels_calculator</span>(<span class="params">x</span>):</span><br><span class="line">    count = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(x)):</span><br><span class="line">        <span class="keyword">if</span> x[i] == <span class="string">&#x27; squirrel &#x27;</span>:</span><br><span class="line">            count += <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> count</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">animals = [ <span class="string">&quot; armadillo &quot;</span>, <span class="string">&quot; bear &quot;</span>, <span class="string">&quot; kangaroo &quot;</span>, <span class="string">&quot; okapi &quot;</span>, <span class="string">&quot; squirrel &quot;</span>, <span class="string">&quot; squirrel &quot;</span>]</span><br><span class="line"><span class="built_in">print</span>(squirrels_calculator(animals))</span><br></pre></td></tr></table></figure>
+
+<pre><code>2
+</code></pre>
+<p><strong>List operation: Insert</strong></p>
+<p>list.insert(index, object)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">countries = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># insert at the end of the list</span></span><br><span class="line">countries.insert(<span class="built_in">len</span>(countries), <span class="string">&#x27;e&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(countries)</span><br><span class="line"></span><br><span class="line"><span class="comment"># insert in the middle</span></span><br><span class="line">countries.insert(<span class="number">2</span>, <span class="string">&#x27;new&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(countries)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;]
+[&#39;a&#39;, &#39;b&#39;, &#39;new&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;]
+</code></pre>
+<p><strong>List operation: Remove</strong></p>
+<p>Searches the list and removes the first objectmatching the value</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># only remove the first one appeared</span></span><br><span class="line"><span class="built_in">list</span> = [<span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">8</span>, <span class="number">9</span>]</span><br><span class="line"><span class="built_in">list</span>.remove(<span class="number">8</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">list</span>)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[5, 6, 7, 8, 9]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">600</span>+<span class="number">100</span></span><br><span class="line">b = <span class="string">&quot; 700 &quot;</span></span><br><span class="line">c = <span class="number">700</span>+<span class="number">0.0</span></span><br><span class="line">d = <span class="number">800</span></span><br><span class="line">mixed_list = [ a, b, c, d ]</span><br><span class="line">mixed_list . remove (<span class="number">700</span>)</span><br><span class="line">mixed_list . remove (<span class="number">700</span>)</span><br><span class="line"><span class="built_in">print</span> ( mixed_list )</span><br></pre></td></tr></table></figure>
+
+<pre><code>[&#39; 700 &#39;, 800]
+</code></pre>
+<p><strong>List operation: Concatenation</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># + operation</span></span><br><span class="line">ab = a + b</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;ab = &#x27;</span>, ab)</span><br><span class="line"></span><br><span class="line"><span class="comment"># extend operation</span></span><br><span class="line">a.extend(b)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;a = &#x27;</span>, a)</span><br></pre></td></tr></table></figure>
+
+<pre><code>ab =  [1, 2, 3, 4, 5, 6]
+a =  [1, 2, 3, 4, 5, 6]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># concatenate different elements</span></span><br><span class="line">a = []</span><br><span class="line">b = [<span class="number">1</span>, <span class="number">2</span>]</span><br><span class="line">c = [<span class="string">&#x27;a&#x27;</span>]</span><br><span class="line"><span class="built_in">print</span>(b + a + c)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[1, 2, &#39;a&#39;]
+</code></pre>
+<p><strong>List operation: in, zip, emurate,split</strong></p>
+<ul>
+<li>in : boolean expression</li>
+<li>zip : make a list of pairs; merge two lists in sequence; create a list that is the union of two lists, where the union operation is only for the first k elements of each list, where k is the smaller of the two list lengths.</li>
+<li>enumerate : is working to build the sequence of indices automatically and then zipping them with the collection values.</li>
+<li>split : A string operation, split the string into a list of smaller strings on the delimiter sep.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># zip</span></span><br><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line">b = [<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>]</span><br><span class="line">result = <span class="built_in">zip</span>(a, b)</span><br><span class="line">new_list = <span class="built_in">list</span>(result)</span><br><span class="line"><span class="built_in">print</span>(new_list)</span><br><span class="line"></span><br><span class="line"><span class="comment">#enumerate</span></span><br><span class="line">enu_result = <span class="built_in">enumerate</span>(b)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">list</span>(enu_result))</span><br></pre></td></tr></table></figure>
+
+<pre><code>[(1, &#39;a&#39;), (2, &#39;b&#39;), (3, &#39;c&#39;), (4, &#39;d&#39;)]
+[(0, &#39;a&#39;), (1, &#39;b&#39;), (2, &#39;c&#39;), (3, &#39;d&#39;)]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># zip</span></span><br><span class="line">name_list = [ <span class="string">&quot; Sunset &quot;</span>, <span class="string">&quot; Amber Jewel &quot;</span>, <span class="string">&quot; Teagan &quot;</span>, <span class="string">&quot; Queen Garnet &quot;</span> ]</span><br><span class="line">weight_list = [ <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line">unit_cost_list = [ <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>]</span><br><span class="line">price_list = [<span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>, <span class="number">12</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># present invoice of all information with extra markup</span></span><br><span class="line">itemised_bill_full = <span class="built_in">list</span> ( <span class="built_in">zip</span> ( name_list , weight_list , [<span class="string">&quot;kg @ $&quot;</span>] *<span class="number">4</span>, unit_cost_list , [<span class="string">&quot;/kg = $&quot;</span>] *<span class="number">4</span>, price_list ))</span><br><span class="line"><span class="built_in">print</span> ( itemised_bill_full )</span><br></pre></td></tr></table></figure>
+
+<pre><code>[(&#39; Sunset &#39;, 1, &#39;kg @ $&#39;, 5, &#39;/kg = $&#39;, 9), (&#39; Amber Jewel &#39;, 2, &#39;kg @ $&#39;, 6, &#39;/kg = $&#39;, 10), (&#39; Teagan &#39;, 3, &#39;kg @ $&#39;, 7, &#39;/kg = $&#39;, 11), (&#39; Queen Garnet &#39;, 4, &#39;kg @ $&#39;, 8, &#39;/kg = $&#39;, 12)]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">text = <span class="string">&#x27;I love the world, I love the nature!&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># sep = &#x27; &#x27;</span></span><br><span class="line">words = text.split(sep = <span class="string">&#x27; &#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;words = &#x27;</span>, words)</span><br><span class="line"></span><br><span class="line"><span class="comment"># sep = &#x27;ov&#x27;</span></span><br><span class="line">words2 = text.split(sep = <span class="string">&#x27;ov&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;words2 = &#x27;</span>, words2)</span><br><span class="line"></span><br><span class="line"><span class="comment"># index</span></span><br><span class="line">words3 = text.split(sep = <span class="string">&#x27;ov&#x27;</span>)[<span class="number">1</span>]</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;words3 = &#x27;</span>, words3)</span><br><span class="line"></span><br><span class="line"><span class="comment"># sep = &#x27;,&#x27;</span></span><br><span class="line">words4 = text.split(sep = <span class="string">&#x27;,&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;words4 = &#x27;</span>, words4)</span><br></pre></td></tr></table></figure>
+
+<pre><code>words =  [&#39;I&#39;, &#39;love&#39;, &#39;the&#39;, &#39;world,&#39;, &#39;I&#39;, &#39;love&#39;, &#39;the&#39;, &#39;nature!&#39;]
+words2 =  [&#39;I l&#39;, &#39;e the world, I l&#39;, &#39;e the nature!&#39;]
+words3 =  e the world, I l
+words4 =  [&#39;I love the world&#39;, &#39; I love the nature!&#39;]
+</code></pre>
+<h2 id="Lecture-8"><a href="#Lecture-8" class="headerlink" title="Lecture_8"></a>Lecture_8</h2><p><strong>Loops</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for </span></span><br><span class="line">notes = [ <span class="number">50</span>, <span class="number">20</span>, <span class="number">10</span>, <span class="number">5</span> ]</span><br><span class="line"><span class="keyword">for</span> v <span class="keyword">in</span> notes :</span><br><span class="line">    <span class="built_in">print</span> (v)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (index, value) <span class="keyword">in</span> <span class="built_in">enumerate</span>(notes):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Note &#123;&#125; is located at position &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(value, index))</span><br></pre></td></tr></table></figure>
+
+<pre><code>50
+20
+10
+5
+Note 50 is located at position 0
+Note 20 is located at position 1
+Note 10 is located at position 2
+Note 5 is located at position 3
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">coords = [ (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>) , (<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>) ]</span><br><span class="line"><span class="keyword">for</span> (x, y, z) <span class="keyword">in</span> coords :</span><br><span class="line">    <span class="built_in">print</span> (x)</span><br><span class="line">    <span class="built_in">print</span> (y)</span><br><span class="line">    <span class="built_in">print</span> (z)</span><br></pre></td></tr></table></figure>
+
+<pre><code>1
+2
+3
+4
+5
+6
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># multiply 10</span></span><br><span class="line">numbers_input = [ <span class="number">5</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">8</span> ]</span><br><span class="line">numbers_output = [<span class="number">0</span>] * <span class="built_in">len</span> ( numbers_input ) </span><br><span class="line">index = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> index, num_in <span class="keyword">in</span> <span class="built_in">enumerate</span>(numbers_input) :</span><br><span class="line">    numbers_output [ index ] = num_in * <span class="number">10</span></span><br><span class="line"><span class="built_in">print</span>(numbers_output)</span><br><span class="line"></span><br><span class="line">numebers_output2 = [num * <span class="number">10</span> <span class="keyword">for</span> num <span class="keyword">in</span> numbers_input]</span><br><span class="line"><span class="built_in">print</span>(numebers_output2)</span><br><span class="line"></span><br><span class="line">numbers_input = [ <span class="number">5</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">8</span> ]</span><br><span class="line"><span class="built_in">print</span> ( [ num <span class="keyword">if</span> num &gt; <span class="number">4</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> num <span class="keyword">in</span> numbers_input ] )</span><br></pre></td></tr></table></figure>
+
+<pre><code>[50, 30, 70, 30, 60, 80]
+[50, 30, 70, 30, 60, 80]
+[5, 0, 7, 0, 6, 8]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># while</span></span><br><span class="line">notes = [ <span class="number">50</span>, <span class="number">20</span>, <span class="number">10</span>, <span class="number">5</span> ]</span><br><span class="line">index = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> index &lt; <span class="built_in">len</span> ( notes ):</span><br><span class="line">    v = notes [ index ]</span><br><span class="line">    <span class="built_in">print</span> (v)</span><br><span class="line">    index += <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<pre><code>50
+20
+10
+5
+</code></pre>
+<p><strong>Note: range(start, stop[, step])</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> <span class="built_in">range</span> (<span class="number">10</span> , <span class="number">5</span>, -<span class="number">1</span>):</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&quot; the value of num is &quot;</span> + <span class="built_in">str</span> ( num ) )</span><br></pre></td></tr></table></figure>
+
+<pre><code> the value of num is 10
+ the value of num is 9
+ the value of num is 8
+ the value of num is 7
+ the value of num is 6
+</code></pre>
+<h2 id="Lecture-9-10"><a href="#Lecture-9-10" class="headerlink" title="Lecture_9 &amp; 10"></a>Lecture_9 &amp; 10</h2><p><strong>Defining Functions &amp; Tuples</strong></p>
+<p><strong>1. List is mutable, contents can change []</strong></p>
+<p><strong>2. Tuple is immutable, contents cannot change ()</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">print_row</span> ( width ):</span><br><span class="line">    i = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; width :</span><br><span class="line">        <span class="built_in">print</span> (<span class="string">&quot;*&quot;</span>, end =<span class="string">&#x27;&#x27;</span>)</span><br><span class="line">        i = i + <span class="number">1</span></span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line">print_row (<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+
+<pre><code>**********
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_random_two_words</span> ( words ):</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27; return two words from the list &#x27;&#x27;&#x27;</span></span><br><span class="line">    index1 = random . randint (<span class="number">0</span>, <span class="built_in">len</span> ( words ))</span><br><span class="line">    index2 = random . randint (<span class="number">0</span>, <span class="built_in">len</span> ( words ))</span><br><span class="line">    results = [ words [ index1 ] , words [ index2 ] ]</span><br><span class="line">    <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line">colours = [<span class="string">&#x27;Green &#x27;</span>, <span class="string">&#x27;Blue &#x27;</span>, <span class="string">&#x27;Black &#x27;</span>, <span class="string">&#x27;Red &#x27;</span>, <span class="string">&#x27;White &#x27;</span>, <span class="string">&#x27;Yellow &#x27;</span>]</span><br><span class="line">results = get_random_two_words ( colours )</span><br><span class="line"><span class="built_in">print</span> ( results [<span class="number">0</span>])</span><br><span class="line"><span class="built_in">print</span> ( results [<span class="number">1</span>])</span><br></pre></td></tr></table></figure>
+
+<pre><code>Blue 
+Yellow 
+</code></pre>
+<h2 id="Lecture-11"><a href="#Lecture-11" class="headerlink" title="Lecture_11"></a>Lecture_11</h2><p><strong>Exception</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># 尝试执行的代码</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> SomeException <span class="keyword">as</span> e:</span><br><span class="line">    <span class="comment"># 处理异常的代码</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">finally</span>:</span><br><span class="line">    <span class="comment"># 无论是否发生异常都会执行的代码</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">input</span> = <span class="string">&quot;10a&quot;</span></span><br><span class="line"><span class="keyword">try</span> :</span><br><span class="line">    requests = <span class="built_in">int</span>( <span class="built_in">input</span> )</span><br><span class="line">    i = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> i &lt; requests :</span><br><span class="line">        dostuff (i)</span><br><span class="line">        i = i + <span class="number">1</span></span><br><span class="line"><span class="keyword">except</span> ValueError <span class="keyword">as</span> ve:</span><br><span class="line">    <span class="built_in">print</span> ( <span class="built_in">str</span> ( <span class="built_in">type</span> (ve)) + <span class="string">&quot;exception caught: invalid number&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<pre><code>&lt;class &#39;ValueError&#39;&gt;exception caught: invalid number
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    a = <span class="number">1</span>/<span class="number">0</span></span><br><span class="line"><span class="keyword">except</span> BaseException <span class="keyword">as</span> e:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;error info:&#x27;</span>, e)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    a = [<span class="number">0</span>]</span><br><span class="line">    <span class="built_in">print</span>(a[<span class="number">1</span>])</span><br><span class="line"><span class="keyword">except</span> IndexError <span class="keyword">as</span> e:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;sys error info output:&#x27;</span>, e)</span><br></pre></td></tr></table></figure>
+
+<pre><code>error info: division by zero
+sys error info output: list index out of range
+</code></pre>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/blog/archives/2023" class="archive-year">2023</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blog/2023/12/18/hello-world/" class="archive-article-date">
-  	<time datetime="2023-12-18T09:12:08.052Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-18</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blog/2023/12/18/hello-world/">Hello World</a>
-    </h1>
-  
+      
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://zgszlsy.github.io/blog/2024/08/07/Python_Lecture_Notes/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blog/2023/12/18/test/" class="archive-article-date">
-  	<time datetime="2023-12-18T09:12:08.052Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blog/2023/12/18/123/" class="archive-article-date">
-  	<time datetime="2023-12-17T23:04:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-12-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
 
 
           </div>
@@ -244,7 +589,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2023 John Doe
+    		&copy; 2024 John Doe
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -257,15 +602,15 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
 		root: "/blog/",
 		innerArchive: true,
-		showTags: false
+		showTags: true
 	}
 </script>
 
